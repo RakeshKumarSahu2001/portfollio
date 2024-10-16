@@ -1,7 +1,5 @@
 import "../App.css"
 import Img from "../assets/portfolliopic.jpeg"
-// import Img2 from "../assets/portfolliopic2.jpeg"
-import Img3 from "../assets/portfolliopic3.jpeg"
 import { FaSquareGithub } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";

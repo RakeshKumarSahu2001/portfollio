@@ -19,7 +19,7 @@ function Skill({ cardHeader, label }:props) {
                         {Object.entries(cardHeader).map(([key, value], index) => (
                             <li key={index} className="d-flex rounded-3 align-items-center text-capitalize gap-2 border border-primary " style={{ padding: "0.5rem 0.8rem" }}>
                                 <img
-                                    src={value ? value : null} // Handle SVG and non-SVG icons
+                                    src={value ? value : null}
                                     alt={key}
                                     className=""
                                     style={{ width: "25px", height: "25px" }}

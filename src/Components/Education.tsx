@@ -8,7 +8,6 @@ function Education() {
 
 
 
-  // console.log(education)
   return (
     <section className="education-section py-3" id='Education'>
       <div className="info-container container-lg  d-flex flex-column gap-1 justify-content-center">
