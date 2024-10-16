@@ -8,7 +8,7 @@ function Project({ pic, name, text, tools,link }: project) {
       <div className="card" tabIndex={0}>
         <div className="card_image"><img src={pic} alt={pic} /></div>
         <div className="card_content">
-          <h2 className="card_title"><a href={link}>Visit website<MdArrowForwardIos className="ms-3pb-1" /></a></h2>
+        <a href={link} target="_blank"><h2 className="card_title">Visit website<MdArrowForwardIos className="ms-3 pb-1" /></h2></a>
           <div className="card_text">
             <span className="note">{name}</span>
             <p className="lh-sm">{text}</p>

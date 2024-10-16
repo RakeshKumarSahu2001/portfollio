@@ -11,11 +11,11 @@ function Footer() {
             <div className="footer-basic">
                 <footer>
                     <div className="social ">
-                        <a href="https://github.com/RakeshKumarSahu2001"><FaSquareGithub className="icons" /></a>
-                        <a href="https://www.linkedin.com/in/rakesh-kumar-sahu22/"><IoLogoLinkedin className="icons" /></a>
+                        <a href="https://github.com/RakeshKumarSahu2001" target="_blank"><FaSquareGithub className="icons" /></a>
+                        <a href="https://www.linkedin.com/in/rakesh-kumar-sahu22/" target="_blank"><IoLogoLinkedin className="icons" /></a>
                         <a href="#"><FaSquareXTwitter className="icons" /></a>
                         <a href="#"><FaSquareInstagram className="icons" /></a>
-                        <a href="mailto:rakeshkumarsahu187@gmail.com"><FaSquareEnvelope className="icons" /></a>
+                        <a href="mailto:rakeshkumarsahu187@gmail.com" target="_blank"><FaSquareEnvelope className="icons" /></a>
 
                     </div>
                     <ul className="list-inline">

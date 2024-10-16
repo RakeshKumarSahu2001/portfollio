@@ -394,6 +394,7 @@ a:hover {
   display: flex;
   height: 250px;
   box-shadow: 0 50px 100px 0 var(--shadow2);
+  transition: all 2s ease;
 }
 
 .card_image img {
@@ -408,7 +409,7 @@ a:hover {
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: transform 0.1s linear, box-shadow 0.2s;
+  transition: transform 0.1s linear,box-shadow 0.2s;
 }
 
 .card_text:focus,
@@ -450,6 +451,11 @@ a:hover {
   }
 }
 
+.card_image:hover{
+   img{
+    scale: 1.02;
+  }
+}
 
 .card:focus .card_title,
 .card:hover .card_title {

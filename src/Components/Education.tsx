@@ -9,7 +9,7 @@ function Education() {
 
 
   return (
-    <section className="education-section py-3" id='Education'>
+    <section className="education-section py-3 border-0" id='Education'>
       <div className="info-container container-lg  d-flex flex-column gap-1 justify-content-center">
         <h1 className='text-center text-primary'>Education</h1>
 

@@ -6,7 +6,7 @@ function Skills() {
     const { Frontend, Backend, Other } = useContext(PortfollioContext);
 
     return (
-        <section className="education-section-subtle py-3 py-lg-5" id='Skills'>
+        <section className="education-section-subtle py-3 py-lg-5 border-0" id='Skills'>
             <div className="info-container container-lg d-flex flex-column justify-content-center">
                 <div>
                     <h1 className=" text-center py-1 text-primary">Skills</h1>

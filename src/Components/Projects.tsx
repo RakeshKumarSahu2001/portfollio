@@ -6,7 +6,7 @@ function Projects() {
   const { projects } = useContext(PortfollioContext);
 
   return (
-    <section className="py-3 projects" id='Projects'>
+    <section className="py-3 projects border-0" id='Projects'>
       <div className="info-container container d-flex flex-column gap-1 justify-content-center">
       <h1 className="text-primary text-center py-1">Projects</h1>
           <div className='row gx-4 gy-3 list-unstyled' style={{ cursor: "pointer" }}>

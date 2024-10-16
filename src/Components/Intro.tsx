@@ -1,9 +1,10 @@
 import Img from "../assets/portfolliopic.jpeg"
 import Img2 from "../assets/portfolliopic2.jpeg"
+import resume from "../assets/RakeshKumarSahu-resume.pdf"
 
 function Intro() {
     return (
-        <section className="py-lg-5 intro" id="Intro">
+        <section className="py-lg-5 intro border-0" id="Intro">
             <div className="info-container container py-lg-5 ">
 
                 <div className="row">
@@ -35,7 +36,7 @@ function Intro() {
                             I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning,
                             I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
                         </p>
-                        <button className="btn btn-primary mt-3 mb-4 px-4 py-2 float-start ">Resume</button>
+                        <a href={resume} target="_blank" download="RakeshKumarSahu-resume.pdf" className="btn btn-primary mt-3 mb-4 px-4 py-2 float-start ">Resume</a>
                     </div>
                 </div>
 

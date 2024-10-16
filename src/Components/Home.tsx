@@ -8,7 +8,7 @@ import { FaSquareEnvelope } from "react-icons/fa6";
 
 function Home() {
   return (
-    <section className="home py-lg-5" id="Home">
+    <section className="home py-lg-5 border-0" id="Home">
       <div className="info-container container d-flex flex-column flex-md-row gap-3 gap-md-0 align-items-center mt-lg-5">
         <div className="home-text mt-lg-5 container">
           <div className="row">
@@ -21,11 +21,11 @@ function Home() {
               <p className="fw-bold text-lg-start text-center domain-info">I am a Full-Stack Developer.</p>
 
               <div className="social d-flex align-items-center justify-content-center justify-content-lg-start">
-                <a href="https://github.com/RakeshKumarSahu2001"><FaSquareGithub className="icons" /></a>
-                <a href="https://www.linkedin.com/in/rakesh-kumar-sahu22/"><IoLogoLinkedin className="icons" /></a>
+                <a href="https://github.com/RakeshKumarSahu2001"  target="_blank"><FaSquareGithub className="icons" /></a>
+                <a href="https://www.linkedin.com/in/rakesh-kumar-sahu22/" target="_blank"><IoLogoLinkedin className="icons" /></a>
                 <a href="#"><FaSquareXTwitter className="icons" /></a>
                 <a href="#"><FaSquareInstagram className="icons" /></a>
-                <a href="mailto:rakeshkumarsahu187@gmail.com"><FaSquareEnvelope className="icons" /></a>
+                <a href="mailto:rakeshkumarsahu187@gmail.com" target="_blank"><FaSquareEnvelope className="icons" /></a>
               </div>
             </div>
 
