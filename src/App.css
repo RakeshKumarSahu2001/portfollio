@@ -8,7 +8,7 @@
   --main-yellow: red;
   --aqua: #b4fee7;
   --shadow2: #81b4ff73;
-  --shadow:#5e5e5e;
+  --shadow: #5e5e5e;
 }
 
 body {
@@ -46,6 +46,53 @@ p {
   }
 }
 
+.glass-morphism {
+  backdrop-filter: blur(0px) saturate(200%);
+  -webkit-backdrop-filter: blur(0px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.nav-list-position {
+  top: 100px;
+  right: -100%;
+  transition: right ease-in 250ms;
+  transition-duration: 3s, 1s;
+}
+
+.nav-show-position {
+  right: 0%;
+}
+
+.nav-item-hover {
+  a {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.nav-item-hover {
+  a:before {
+    content: '';
+    background: var(--main-color);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+
+.nav-item-hover {
+  a:hover::before {
+    width: 100%;
+  }
+}
+
 /* Home */
 .home {
   position: relative;
@@ -74,13 +121,13 @@ p {
   color: var(--text-color);
 }
 
-.my-name{
+.my-name {
   font-size: clamp(29px, 4vw, 4rem);
 }
 
-.domain-info{
+.domain-info {
   position: relative;
-  font-size: clamp(1rem, 2.5vw, 2rem); 
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 /* image container css */
@@ -409,7 +456,7 @@ a:hover {
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: transform 0.1s linear,box-shadow 0.2s;
+  transition: transform 0.1s linear, box-shadow 0.2s;
 }
 
 .card_text:focus,
@@ -451,8 +498,8 @@ a:hover {
   }
 }
 
-.card_image:hover{
-   img{
+.card_image:hover {
+  img {
     scale: 1.02;
   }
 }
@@ -622,4 +669,3 @@ a:hover {
   color: #aaa;
   margin-bottom: 0;
 }
-
